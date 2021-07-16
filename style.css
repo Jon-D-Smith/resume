@@ -14,6 +14,12 @@ body {
   border-right: 1px solid grey;
   background: white;
 }
+a {
+  color: rgb(50, 50, 50);
+}
+a:hover {
+  color: rgb(69, 167, 231);
+}
 
 header {
   margin: 0 auto;
@@ -38,4 +44,11 @@ hr {
 .linebreak {
   width: 80%;
   border-bottom: 1px solid grey;
+}
+
+#intro {
+  margin: 0 auto;
+  text-align: left;
+  width: 60%;
+  list-style-position: inside;
 }
