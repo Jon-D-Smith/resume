@@ -1,54 +1,115 @@
-html {
-  padding: 0;
-  color: rgb(50, 50, 50);
-  background: rgb(220, 220, 220);
-}
 body {
-  box-sizing: border-box;
-  width: 60%;
-  min-width: 400px;
-  margin: 0 auto;
-  box-shadow: 5px 5px 15px black;
-  text-align: center;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  background: white;
+  margin: 0;
 }
-a {
-  color: rgb(50, 50, 50);
-}
-a:hover {
-  color: rgb(69, 167, 231);
-}
-
+/* Header and head designs */
 header {
-  margin: 0 auto;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 32px;
-}
-
-hr {
-  width: 80%;
-}
-
-.contact {
+  height: 100vh;
+  background-image: url("images/gradient.jpg");
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
 }
 
-.linebreak {
+#headshot {
+  height: 325px;
+  width: 295px;
+}
+
+.container {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+#chevron {
+  font-size: 64px;
+  cursor: pointer;
+}
+
+/* About section */
+
+#about {
+  margin: 0;
+  background: #fafafa;
+  overflow: hidden;
+  height: 50vh;
+  text-align: center;
+}
+
+.horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  justify-items: center;
+  align-content: space-between;
+}
+
+.about-box {
   width: 80%;
-  border-bottom: 1px solid grey;
+  background: #fff;
+  padding: 1rem;
 }
 
-#intro {
-  margin: 0 auto;
-  text-align: left;
-  width: 60%;
-  list-style-position: inside;
+/* Skills section */
+#skills {
+  text-align: center;
+  background: black;
+  color: white;
+  overflow: hidden;
+}
+
+#skills-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-content: space-between;
+  overflow: hidden;
+  height: 60vh;
+  width: 100vw;
+  text-align: center;
+}
+
+i {
+  font-size: 64px;
+}
+
+/* Projects section */
+#projects {
+  text-align: center;
+  background: #fafafa;
+  overflow: hidden;
+}
+
+#projects-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-content: space-between;
+  overflow: hidden;
+  width: 100vw;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  height: 85%;
+}
+
+#projects a {
+  text-decoration: none;
+  color: black;
+}
+
+.project:hover {
+  background: #f8f8f8;
+  border-left: 2px solid black;
+  box-shadow: 0 0 3px black;
 }
