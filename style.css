@@ -16,7 +16,7 @@ header {
 }
 
 #headshot {
-  height: 325px;
+  height: 350px;
   width: 295px;
   border-radius: 20px;
 }
@@ -133,4 +133,25 @@ i {
 .project:hover {
   background: #f8f8f8;
   box-shadow: 0 0 3px black;
+}
+
+/* Contact Section */
+
+#contact {
+  background: black;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
 }
