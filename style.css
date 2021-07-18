@@ -59,7 +59,7 @@ header {
   margin: 0;
   background: #fafafa;
   overflow: hidden;
-  height: 50vh;
+  height: 100%;
   text-align: center;
 }
 
@@ -76,6 +76,7 @@ header {
   background: #fff;
   padding: 1rem;
   border-radius: 20px;
+  margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -144,6 +145,7 @@ i {
   margin: 1rem;
   border-radius: 20px;
   height: 85%;
+  background: #fafafa;
 }
 
 #projects a {
