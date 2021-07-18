@@ -187,7 +187,7 @@ i {
   }
 
   #headshot {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   header {
     height: 100%;
@@ -195,10 +195,6 @@ i {
 }
 
 @media screen and (max-width: 600px) {
-  #headshot {
-    margin-top: 10rem;
-  }
-
   .container {
     font-size: 1.5rem;
   }
