@@ -117,6 +117,7 @@ i {
   overflow: hidden;
   width: 100vw;
   text-align: center;
+  background: #fafafa;
 }
 
 .project {
@@ -126,7 +127,7 @@ i {
   margin: 1rem;
   border-radius: 20px;
   height: 85%;
-  background: #fafafa;
+  background: white;
 }
 
 #projects a {
