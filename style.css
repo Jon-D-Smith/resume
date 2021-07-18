@@ -79,18 +79,6 @@ header {
   margin-bottom: 4rem;
 }
 
-@media screen and (max-width: 800px) {
-  #about {
-    height: 100%;
-  }
-  .horizontal {
-    grid-template-columns: 1fr;
-  }
-  .about-box {
-    margin: 1rem;
-  }
-}
-
 /* Skills section */
 #skills {
   text-align: center;
@@ -112,13 +100,6 @@ header {
 
 i {
   font-size: 64px;
-}
-
-@media screen and (max-width: 800px) {
-  #skills-div {
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-  }
 }
 
 /* Projects section */
@@ -158,13 +139,6 @@ i {
   box-shadow: 0 0 3px black;
 }
 
-@media screen and (max-width: 800px) {
-  #projects-div {
-    grid-template-columns: 1fr;
-    height: 100%;
-  }
-}
-
 /* Contact Section */
 
 #contact {
@@ -187,8 +161,42 @@ i {
 }
 
 @media screen and (max-width: 800px) {
+  #projects-div {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  #skills-div {
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+  }
+
+  #about {
+    height: 100%;
+  }
+  .horizontal {
+    grid-template-columns: 1fr;
+  }
+  .about-box {
+    margin: 1rem;
+  }
+
+  #headshot {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #headshot {
+    margin-top: 10rem;
+  }
+
+  .container {
+    font-size: 1.5rem;
   }
 }
