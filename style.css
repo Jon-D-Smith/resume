@@ -189,6 +189,9 @@ i {
   #headshot {
     margin-top: 3rem;
   }
+  header {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
