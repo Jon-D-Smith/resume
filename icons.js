@@ -61,6 +61,7 @@ skillsArray.map(skill => {
     //Style icons
     icon.classList.add(skill.icon[0], skill.icon[1])
     icon.style.color = skill.color
+    div.style.margin = '3rem auto'
     
     paragraph.textContent = skill.text
 
