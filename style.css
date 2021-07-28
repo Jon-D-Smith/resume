@@ -151,6 +151,7 @@ i {
   text-align: center;
   overflow: hidden;
   background: rgba(0, 0, 0, 60%);
+  padding-bottom: 0.5rem;
 }
 
 .contact {
